@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   top: 0%;
+  min-height: 5%;
 }
 
 .navbar-container {
@@ -52,14 +53,8 @@
   background-color: black;
 }
 
-/* Add styles for the dropdown container */
-.dropdown-container {
-  display: flex;
-  align-items: center;
-}
-
 /* Add media query to hide regular Navbar on smaller screens */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -67,9 +62,4 @@
   .side-container {
     margin: 0%;
   }
-  .dropdown-container {
-    margin: 0% 5% 0% 0%;
-  }
 }
-
-

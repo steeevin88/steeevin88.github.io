@@ -1,0 +1,26 @@
+/* Add styles for the dropdown container */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-toggle{
+    background-color: #967969;
+  }
+
+  .dropdown-item, .dropdown-item a {
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    .dropdown-container {
+      margin: 0% 5% 0% 0%;
+    }
+  }
+  

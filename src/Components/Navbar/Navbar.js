@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar, Nav, NavItem, NavLink, Button, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Navbar, Nav, NavItem, NavLink, Button} from 'reactstrap';
 import './Navbar.css';
 import logo from './logo.png';
+import CustomDDM from './DropdownMenu/CustomDDM';
 
 function ProjectNavbar() {
   const [isMobile, setIsMobile] = useState(false); // track "mobile view"
-  const [dropdownOpen, setDropdownOpen] = useState(false); // track dropdown state
 
   useEffect(() => {
     // Function to handle resizing of the window
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 800); // Set isMobile state based on screen width
+      setIsMobile(window.innerWidth <= 900); // Set isMobile state based on screen width
     };
 
     // Attach event listener for window resize
@@ -25,10 +25,6 @@ function ProjectNavbar() {
     };
   }, []);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen); // toggle dropdown state
-  };
-
   return (
     <Navbar expand="md" className="navbar">
       <div className="navbar-container">
@@ -38,15 +34,7 @@ function ProjectNavbar() {
         {isMobile ? (
           // Render dropdown menu on mobile view
           <div className="dropdown-container">
-            <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
-              <DropdownToggle caret>Menu</DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem href="/about">About</DropdownItem>
-                <DropdownItem href="/experience">Experience</DropdownItem>
-                <DropdownItem href="/projects">Projects</DropdownItem>
-                <DropdownItem href="/socials">Socials</DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
+            <CustomDDM />
           </div>
         ) : (
           // Render regular Navbar on larger screens
