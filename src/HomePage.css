@@ -25,3 +25,13 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.content-container {
+  margin-top: calc(5% + 60px); /* Adjust the margin to match the height of the Navbar */
+  padding-top: 0;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 5%;
+}

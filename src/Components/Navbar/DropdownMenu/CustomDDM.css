@@ -2,10 +2,12 @@
 .dropdown-container {
     display: flex;
     align-items: center;
+    position: relative;
+    transition: transform 0.5s;
   }
   
-  .dropdown-container {
-    position: relative;
+  .dropdown-container:hover {
+    transform: scale(1.1);
   }
   
   .dropdown-toggle{
@@ -13,7 +15,7 @@
   }
 
   .dropdown-item, .dropdown-item a {
-    width: 100%;
+    width: 108%;
     color: inherit;
     text-decoration: none;
   }

@@ -2,123 +2,16 @@ import React from 'react';
 import './HomePage.css';
 
 import Navbar from './Components/Navbar/Navbar';
+import Intro from './Components/Intro/Intro';
+import About from './Components/About/About';
 
 function HomePage() {
   return (
     <div>
       <Navbar />
-      <div>
-        <p>
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-          alskdjlak;sjfkla;djfl;dfasasl;dkj;asldjfas;djf;ladfasdlk;hasdklfhasdf
-          asdfasdfasdfasdfasdfontSizeasdfasdfsadfsadfasdfasdfasdfasdfasdfasdfon
-          tSizeasdfasdfsadfsadffasdfasdfasdfasdfasdasdfasdfasdfasdfasdfasdsafont
-          Sizeasdfasdfsadfsadfsadfsadasdfasdfasdfsaddfsadfdasfalskdjlak;sjfkla;djfl;dfas
-        </p>
+      <div className="content-container">
+        <Intro />
+        <About />
       </div>
     </div>
   );

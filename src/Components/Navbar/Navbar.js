@@ -54,15 +54,12 @@ function ProjectNavbar() {
               </NavItem>
             </Nav>
             <div className="side-container">
-              <Button
-                outline
-                id="btn"
-                href=""
+              <Button outline id="btn" href=""
                 style={{
-                  width: '100px',
-                  border: '3px solid #2B1D14',
-                  borderRadius: 8,
-                  fontSize: '20px',
+                  width: '100%',
+                  border: '10px solid #F5F5DC',
+                  borderRadius: 10,
+                  fontSize: '18px',
                 }}
               >
                 Resume

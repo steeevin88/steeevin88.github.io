@@ -17,11 +17,11 @@ function CustomDDM() {
       </DropdownToggle>
       {dropdownOpen && (
         <DropdownMenu>
-          <DropdownItem><a href="/about">Home</a></DropdownItem>
-          <DropdownItem>About</DropdownItem>
-          <DropdownItem>Experience</DropdownItem>
-          <DropdownItem>Contact</DropdownItem>
-          <DropdownItem>Resume</DropdownItem>
+          <DropdownItem><a href="/about">Home 🏠</a></DropdownItem>
+          <DropdownItem>About 🙋‍♂️</DropdownItem>
+          <DropdownItem>Experience </DropdownItem>
+          <DropdownItem>Contact 📞</DropdownItem>
+          <DropdownItem>Resume 📝</DropdownItem>
       </DropdownMenu>
       )}
     </Dropdown>

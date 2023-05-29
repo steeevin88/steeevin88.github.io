@@ -1,7 +1,6 @@
 .navbar {
   background-color: #967969;
-  color: brown;
-  font-size: 18px;
+  font-size: 20px;
   position: fixed;
   width: 100%;
   top: 0%;
@@ -32,7 +31,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: brown;
+  color: beige;
 }
 
 .side-container {
@@ -40,6 +39,7 @@
   display: flex;
   justify-content: center;
   margin: 0% 15% 0% 15%;
+  transition: transform 0.5s;
 }
 
 .navbar-container img {
@@ -49,8 +49,12 @@
 }
 
 #btn {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #F5F5DC;
+}
+
+.side-container:hover {
+  transform: scale(1.1);
 }
 
 /* Add media query to hide regular Navbar on smaller screens */
