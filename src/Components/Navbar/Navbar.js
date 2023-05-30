@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar, Nav, NavItem, NavLink, Button} from 'reactstrap';
-import './Navbar.css';
+import { Navbar, Nav, NavItem, Button } from 'reactstrap';
+import { Link } from 'react-scroll';
 import logo from './logo.png';
 import CustomDDM from './DropdownMenu/CustomDDM';
+import './Navbar.css';
 
 function ProjectNavbar() {
   const [isMobile, setIsMobile] = useState(false); // track "mobile view"
@@ -25,11 +26,18 @@ function ProjectNavbar() {
     };
   }, []);
 
+  const logoClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <Navbar expand="md" className="navbar">
       <div className="navbar-container">
         <div className="side-container">
-          <img className="logo" src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" onClick={logoClick}/>
         </div>
         {isMobile ? (
           // Render dropdown menu on mobile view
@@ -41,16 +49,60 @@ function ProjectNavbar() {
           <>
             <Nav className="navbar-nav" navbar>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <Link
+                  className="navlink"
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={800}
+                  href=""
+                >
+                  About
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/experience">Experience</NavLink>
+                <Link
+                  className="navlink"
+                  activeClass="active"
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={800}
+                  href=""
+                >
+                  Experience
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/projects">Projects</NavLink>
+                <Link
+                  className="navlink"
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={800}
+                  href=""
+                >
+                  Projects
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/socials">Socials</NavLink>
+                <Link
+                  className="navlink"
+                  activeClass="active"
+                  to="socials"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={800}
+                  href=""
+                >
+                  Socials
+                </Link>
               </NavItem>
             </Nav>
             <div className="side-container">

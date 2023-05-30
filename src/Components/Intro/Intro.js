@@ -4,20 +4,20 @@ import './Intro.css';
 import me from './me.jpg';
 
 function Intro() {
-  const [randomText, setRandomText] = useState('Leetcoding away!');
+  const [randomText, setRandomText] = useState('Working on projects!');
 
   useEffect(() => {
     const textOptions = [
-        'Leetcoding away!',
-        'Building awesome projects!',
+        'Leetcoding...',
+        'Working on projects!',
         'Learning new technologies!',
-        'Exploring the world of software engineering!',
+        'Trying to become a software engineer!',
       ];
 
     const interval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * textOptions.length);
       setRandomText(textOptions[randomIndex]);
-    }, 3000);
+    }, 2500);
 
     return () => clearInterval(interval);
   }, []);

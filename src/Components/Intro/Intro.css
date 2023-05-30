@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0% 20% 0% 20%;
+    height: 50vw;
 }
 
 .intro-col {
@@ -17,10 +18,7 @@
     max-height: 100%;
     border: 2px solid black;
     border-radius: 5%;
-}
-
-b {
-    font-size: 3vw;
+    margin-bottom: 10%;
 }
 
 p {
@@ -52,6 +50,7 @@ a {
 @media (max-width: 900px) {
     .intro-table {
         padding: 0% 5% 0% 5%;
+        height: 100vw;
     }
     .intro-col {
         flex-direction: column;
@@ -83,6 +82,6 @@ a {
     #me-image {
         width: 50%;
         height: auto;
-        transform: translateX(45%);
+        transform: translateX(47.5%);
     }
 }
