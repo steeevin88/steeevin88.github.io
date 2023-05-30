@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-scroll';
 import './Intro.css';
-import me from './me.jpg';
 
 function Intro() {
   const [randomText, setRandomText] = useState('Working on projects!');

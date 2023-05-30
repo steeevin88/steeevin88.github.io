@@ -107,7 +107,7 @@ function ProjectNavbar() {
             </Nav>
             <div className="side-container">
               <Button outline id="btn" href=""
-                style={{
+                target="_blank" style={{
                   width: '100%',
                   border: '10px solid #F5F5DC',
                   borderRadius: 10,
