@@ -1,4 +1,5 @@
 .intro-table {
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     padding: 0% 20% 0% 20%;
@@ -13,12 +14,8 @@
     justify-content: center;
 }
 
-#me-image {
-    max-width: 100%;
-    max-height: 100%;
-    border: 2px solid black;
-    border-radius: 5%;
-    margin-bottom: 10%;
+.intro-header {
+    font-size: 6vw;
 }
 
 p {
@@ -26,9 +23,15 @@ p {
 }
 
 .random-text-container {
-    height: 20%; /* Adjust the height value as needed */
+    text-align: top;
+    height: 8%;
     display: flex;
-    margin-bottom: 20%;
+    margin: -5% 0% 10% 0%;
+    flex-direction: column;
+}  
+
+.random-text-container p{
+   font-size: 3vw;
 }  
 
 a {
@@ -41,6 +44,8 @@ a {
     transition-duration: 0.5s;
     background-color: #967969;
     height: 15%;
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
 }
 
 #intro-btn:hover {
@@ -50,38 +55,30 @@ a {
 @media (max-width: 900px) {
     .intro-table {
         padding: 0% 5% 0% 5%;
-        height: 100vw;
+        height: 110vw;
     }
-    .intro-col {
-        flex-direction: column;
-        flex-basis:100%;
-    }
-    b {
+    .intro-header {
         text-align: center;
-        font-size: 5vw;
+        font-size: 11vw;
     }
     p {
         font-size: 4vw;
-        line-height: 10%;
-        margin-bottom: 5%;
+        line-height: 100%;
+        margin-bottom: 2.5%;
     }
     .random-text-container {
-        flex-direction: column;
-        margin-bottom: 5%;
-    }  
+        margin: 0% 0% 10% 0%;
+    }
+    .random-text-container p{
+        font-size: 5vw;
+     }  
     #intro-btn {
         height: 25%;
         background-color: #967969;
-        margin-bottom: 5%;
+        margin: 10% 0% 5% 0%;
         font-size: 4vw !important;
-        transform: translateX(20%);
     }
     #intro-btn:hover {
-        transform: translateX(20%) scale(1.1);
-    }
-    #me-image {
-        width: 50%;
-        height: auto;
-        transform: translateX(47.5%);
+        transform: scale(1.1);
     }
 }

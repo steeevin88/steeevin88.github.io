@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import me from '../Intro/me.jpg';
 
 function About() {
     return (
@@ -9,7 +10,9 @@ function About() {
             </div>
             <div className='about-table'>
                 <div className='about-col'>
-                    <p>Thanks for visiting! My name is Steven Le.<br></br> 
+                    <p>Thanks for visiting! My name is Steven Le.
+                    <br></br>
+                    <br></br>
                     I'm currently pursuing a bachelor's degree in computer science at San Jose State University.
                     <br></br>
                     <br></br>
@@ -18,6 +21,7 @@ function About() {
                     </p>
                 </div>
                 <div className='about-col'>
+                    <img id='me-image' src={me} alt='me'></img>
                 </div>
             </div>
         </div>

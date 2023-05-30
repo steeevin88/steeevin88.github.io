@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
+import { Link } from 'react-scroll';
 import './Intro.css';
 import me from './me.jpg';
 
@@ -25,27 +26,37 @@ function Intro() {
   return (
     <div className='intro-table'>
       <div className='intro-col'>
-        <b>Hey! It's Steven.</b>
-        <p>As of right now, I am probably...</p>
+        <b className='intro-header'>Hey! I'm Steven.</b>
+        <p>I'm striving everyday to become a software engineer! </p>
+        <p>But as of right now, I am probably:</p>
         <div className='random-text-container'>
-          <p className='random-text'>{randomText}</p>
+          <p>{randomText}</p>
         </div>
-        <Button
-          outline
-          id='intro-btn'
-          style={{
-            width: '70%',
-            border: '5px solid black',
-            borderRadius: 10,
-            fontSize: '2vw',
-            fontFamily:'Calibri'
-          }}
+        <p>Click the button below to learn about me and this website.</p>
+        <Link
+          className="navlink"
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={800}
+          href=""
         >
-        <a href='/about'>About Me →</a>
-        </Button>
-      </div>
-      <div className='intro-col'>
-        <img id='me-image' src={me} alt='me'></img>
+          <Button
+            outline
+            id='intro-btn'
+            style={{
+              width: '70%',
+              border: '5px solid black',
+              borderRadius: 10,
+              fontSize: '2vw',
+              fontFamily:'Arial'
+            }}
+            >
+              About Me →
+            </Button>
+        </Link>
       </div>
     </div>
   );
