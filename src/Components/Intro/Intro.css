@@ -43,7 +43,7 @@ a {
     transition-property: scale;
     transition-duration: 0.5s;
     background-color: #967969;
-    height: 15%;
+    height: 5vw;
     cursor: pointer;
     margin: 5% 0% 0% 0%;
 }
@@ -73,7 +73,7 @@ a {
         font-size: 5vw;
      }  
     #intro-btn {
-        height: 25%;
+        height: 15vw;
         background-color: #967969;
         margin: 10% 0% 5% 0%;
         font-size: 4vw !important;

@@ -106,7 +106,7 @@ function ProjectNavbar() {
               </NavItem>
             </Nav>
             <div className="side-container">
-              <Button outline id="btn" href=""
+              <Button outline id="btn" href="https://drive.google.com/file/d/1fS1tur2jLJAuUhM1rJDuV8TeyMBq-hlY/view?usp=sharing"
                 target="_blank" style={{
                   width: '100%',
                   border: '10px solid #F5F5DC',

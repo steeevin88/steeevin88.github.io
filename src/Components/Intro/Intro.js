@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-scroll';
+import Typist from 'react-typist';
 import './Intro.css';
 
 function Intro() {
@@ -25,7 +26,7 @@ function Intro() {
   return (
     <div className='intro-table'>
       <div className='intro-col'>
-        <b className='intro-header'>Hey! I'm Steven.</b>
+        <Typist className='intro-header'>Hey! I'm Steven.</Typist>
         <p>I'm striving everyday to become a software engineer! </p>
         <p>But as of right now, I am probably:</p>
         <div className='random-text-container'>
