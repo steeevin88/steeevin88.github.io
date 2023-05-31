@@ -22,29 +22,14 @@ function About() {
                     this website is intended to serve as a digitial portfolio, 
                     documenting my career growth.
                     </p>
-                    <Button
-                            outline
-                            id='about-btn'
-                            style={{
-                            width: '70%',
-                            border: '5px solid black',
-                            borderRadius: 10,
-                            fontSize: '2vw',
-                            fontFamily:'Arial'
-                            }}
-                        >
-                        <Link
-                            activeClass="active"
-                            to="experience"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={800}
-                            href=""
-                        >
+                    <Button outline id='about-btn' style={{ width: '70%', 
+                    border: '5px solid black', borderRadius: 10, fontSize: '2vw',
+                    fontFamily:'Arial' }}>
+                        <Link activeClass="active" to="experience" spy={true}
+                        smooth={true} offset={-70} duration={800} href="">
                             Experience →
                         </Link>
-                        </Button>
+                    </Button>
                 </div>
                 <div className='about-col'>
                     <img id='me-image' 

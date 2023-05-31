@@ -1,79 +1,82 @@
-.experience-page {
+.projects-page {
     background-color: #f2dcb3;
     height: 50vw;
 }
 
-.experience-table {
+.projects-table {
     display: flex;
     flex-direction: column;
-    padding: 2.5% 10% 7.5% 10%;
+    padding: 0% 2.5% 7.5% 2.5%;
     text-align: center;
 }
 
-.experience-header {
-    margin-bottom: 2.5%;
+.projects-header p {
+    font-size: 1.5vw;
 }
 
-.experience-row {
+.projects-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 27.5vw;
 }
 
-.experience-row button{
+.projects-row button{
     flex-basis: 5%;
-    margin: 0% 5% 0% 5%;
+    margin: 0% 2.5% 0% 2.5%;
+    background-color: #f2dcb3;
+    color: black;
+    border-radius: 10px;
 }
 
-.experience-card {
+.project-card {
     flex-basis: 50%;
 }
 
-#projects-btn {
+#contacts-btn {
     align-self: center;
     margin: 5vw 0% 0% 0%;
     transition-property: scale;
     transition-duration: 0.5s;
-    background-color: white;
+    background-color: #967969;
     height: 3.5vw;
     cursor: pointer;
-    color: #967969;
+    color: black;
 }
 
-#projects-btn:hover {
+#contacts-btn:hover {
     transform: scale(1.1);
 }
 
 @media (max-width: 900px) {
-    .experience-page {
+    .projects-page {
         height: 155vw;
     }
-    .experience-header {
+    .projects-header {
         margin: 7.5% 0% 0% 7.5%;
     }
-    .experience-table {
+    .projects-table {
         padding: 0%;
         height: 100vw;
     }
-    .experience-header b {
+    .projects-header b {
         text-align: center;
         font-size: 5vw;
     }
-    .experience-row button{
+    .projects-row button{
         width: 20%;
         margin: 0% 2.5% 0% 2.5%;
     }
-    .experience-row {
+    .projects-row {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         height: 27.5vw;
     }
-    .experience-card {
+    .projects-card {
         flex-basis: 60vw;
     }    
-    #projects-btn {
+    #contacts-btn {
         width: 30vw !important;
         margin-top: 30vw;
         height: 10vw;

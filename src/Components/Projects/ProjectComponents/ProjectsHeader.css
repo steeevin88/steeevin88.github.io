@@ -1,0 +1,33 @@
+.projects-header {
+    background-color: #f2dcb3;
+    color: black;
+    padding-top: 2.5%;
+    margin: 0% 5% 2.5% 5%;
+}
+
+.projects-header b {
+    font-size: 2vw !important;
+}
+
+#contacts-btn {
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 0.5vw solid black;
+    border-radius: 5px; 
+    height: 0px;
+    opacity: 100%;
+}
+
+.text-header {
+    text-align: left;
+}
+
+.upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}

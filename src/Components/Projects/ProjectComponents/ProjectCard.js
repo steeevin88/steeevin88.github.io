@@ -1,14 +1,14 @@
 import { Card, CardImg, CardTitle, CardSubtitle, CardText } from 'reactstrap';
-import './ExperienceCard.css';
+import './ProjectCard.css';
 
-function ExperienceCard({ photo, title, dates, description }) {
+function ProjectCard({ photo, title, dates, description }) {
   return (
     <Card>
       <CardImg
         top
         width="100%"
         src={photo}
-        alt="Experience Photo"
+        alt="Project Photo"
         style={{ objectFit: 'fill' }}
       />
       <CardTitle>{title}</CardTitle>
@@ -18,4 +18,4 @@ function ExperienceCard({ photo, title, dates, description }) {
   );
 }
 
-export default ExperienceCard;
+export default ProjectCard;
