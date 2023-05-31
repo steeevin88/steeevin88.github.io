@@ -10,7 +10,7 @@
 .about-table {
     display: flex;
     flex-wrap: wrap;
-    padding: 0% 20% 7.5% 20%;
+    padding: 2.5% 20% 7.5% 20%;
 }
 
 .about-col {
@@ -25,18 +25,32 @@
     font-size: 1.5vw;
 }
 
+#about-btn {
+    transition-property: scale;
+    transition-duration: 0.5s;
+    background-color: #f2dcb3;
+    height: 5vw;
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+    color: black;
+    transform: translateX(20%);
+}
+
+#about-btn:hover {
+    transform: translateX(20%) scale(1.1);
+}
+
 #me-image {
     max-width: 100%;
     max-height: 100%;
-    border: 2px solid black;
-    border-radius: 5%;
-    margin-bottom: 10%;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: 10% 0% 10% 0%;
 }
 
 @media (max-width: 900px) {
     .about-page {
-        background-color: #967969;
-        height: 120vw;
+        height: 155vw;
     }
     .about-header {
         padding: 7.5% 20% 0% 7.5%;
@@ -56,21 +70,15 @@
     .about-col p {
         font-size: 4vw;
         line-height: 100%;
-        margin-bottom: 5%;
     }
     #about-btn {
-        height: 25%;
-        background-color: #967969;
-        margin-bottom: 5%;
+        height: 20vw;
         font-size: 4vw !important;
         transform: translateX(20%);
-    }
-    #about-btn:hover {
-        transform: translateX(20%) scale(1.1);
     }
     #me-image {
         width: 50%;
         height: auto;
-        transform: translateX(47.5%);
+        transform: translateX(45%);
     }
 }
