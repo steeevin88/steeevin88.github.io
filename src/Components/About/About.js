@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-scroll';
 import './About.css';
-import me from '../Intro/me.jpg';
 
 function About() {
     return (
@@ -23,17 +22,7 @@ function About() {
                     this website is intended to serve as a digitial portfolio, 
                     documenting my career growth.
                     </p>
-                    <Link
-                        className="navlink"
-                        activeClass="active"
-                        to="experience"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={800}
-                        href=""
-                    >
-                        <Button
+                    <Button
                             outline
                             id='about-btn'
                             style={{
@@ -44,12 +33,23 @@ function About() {
                             fontFamily:'Arial'
                             }}
                         >
-                        Experience →
+                        <Link
+                            activeClass="active"
+                            to="experience"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                            href=""
+                        >
+                            Experience →
+                        </Link>
                         </Button>
-                    </Link>
                 </div>
                 <div className='about-col'>
-                    <img id='me-image' src={me} alt='me'></img>
+                    <img id='me-image' 
+                    src='https://github.com/steeevin88/steeevin88/assets/59713070/e8eb0b1f-0436-46f4-8a33-3f706cf0772b' 
+                    alt='me'></img>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ function ExperienceCard({ photo, title, dates, description }) {
         width="100%"
         src={photo}
         alt="Experience Photo"
-        style={{ objectFit: 'cover', height: '200px' }}
+        style={{ objectFit: 'fill' }}
       />
       <CardTitle>{title}</CardTitle>
       <CardSubtitle>{dates}</CardSubtitle>

@@ -6,7 +6,7 @@
 .experience-table {
     display: flex;
     flex-direction: column;
-    padding: 2.5% 20% 7.5% 20%;
+    padding: 2.5% 10% 7.5% 10%;
     text-align: center;
 }
 
@@ -16,26 +16,32 @@
 
 .experience-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 27.5vw;
 }
 
 .experience-row button{
-    width: 10%;
-    margin: 0% 15% 0% 15%;
+    flex-basis: 5%;
+    margin: 0% 5% 0% 5%;
 }
 
-#experience-btn {
-    margin: 5% 0% 0% 0%;
+.experience-card {
+    flex-basis: 50%;
+}
+
+#projects-btn {
+    align-self: center;
+    margin: 5vw 0% 0% 0%;
     transition-property: scale;
     transition-duration: 0.5s;
     background-color: white;
-    height: 5vw;
+    height: 3.5vw;
     cursor: pointer;
     color: #967969;
 }
 
-#experience-btn:hover {
+#projects-btn:hover {
     transform: scale(1.1);
 }
 
@@ -47,16 +53,29 @@
         margin: 7.5% 0% 0% 7.5%;
     }
     .experience-table {
-        padding: 0% 5% 0% 5%;
+        padding: 0%;
         height: 100vw;
     }
     .experience-header b {
         text-align: center;
         font-size: 5vw;
     }
-    #experience-btn {
-        height: 20vw;
-        font-size: 4vw !important;
-        transform: translateX(20%);
+    .experience-row button{
+        width: 20%;
+        margin: 0% 2.5% 0% 2.5%;
     }
+    .experience-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 27.5vw;
+    }
+    .experience-card {
+        flex-basis: 60vw;
+    }    
+    #projects-btn {
+        width: 30vw !important;
+        margin-top: 30vw;
+        height: 10vw;
+        font-size: 4vw !important;    }
 }

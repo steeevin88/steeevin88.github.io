@@ -34,7 +34,6 @@ function Intro() {
         </div>
         <p>Click the button below to learn about me and this website.</p>
         <Link
-          className="navlink"
           activeClass="active"
           to="about"
           spy={true}
