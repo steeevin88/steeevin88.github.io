@@ -6,38 +6,41 @@
 }
 
 .projects-header b {
-    font-size: 2.5vw !important;
+    font-size: 2.5vw;
 }
 
 #contacts-btn {
     margin-top: 0;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    background-color: #967969;
+    height: 3.5vw;
+    cursor: pointer;
+    color: black;
 }
 
-hr {
+#contacts-btn:hover {
+    transform: scale(1.1);
+}
+
+#projects-hr {
     border: none;
     border-top: 0.5vw solid black;
     border-radius: 5px; 
-    height: 0px;
-    opacity: 100%;
-}
-
-.text-header {
-    text-align: left;
 }
 
 .upper-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0%;
 }
 
 @media (max-width: 900px) {
     .projects-header b {
-        font-size: 4vw !important;
+        font-size: 4vw;
     }
     #contacts-btn {
-        font-size: 3vw !important;
+        height: 10vw;
+        font-size: 3vw !important;  
     }
-    
 }

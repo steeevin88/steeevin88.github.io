@@ -1,10 +1,12 @@
 .about-page {
     background-color: #967969;
-    height: 50vw;
+    height: 47.5vw;
 }
 
 .about-header {
-    padding: 5% 21.25% 2.5% 21.25%;
+    padding-top: 10%;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .about-table {
@@ -17,32 +19,29 @@
     margin: 0% 2.5% 0% 2.5%;
     flex-grow: 2;
     flex-basis: 20%;
-    align-items: center;
-    justify-content: center;
 }
 
 .about-col p {
     font-size: 1.5vw;
 }
 
-#about-btn {
+#experience-btn {
     transition-property: scale;
     transition-duration: 0.5s;
     background-color: #f2dcb3;
     height: 5vw;
-    cursor: pointer;
     margin: 5% 0% 0% 0%;
     color: black;
     transform: translateX(20%);
+    cursor: pointer;
 }
 
-#about-btn:hover {
+#experience-btn:hover {
     transform: translateX(20%) scale(1.1);
 }
 
 #me-image {
     max-width: 100%;
-    max-height: 100%;
     border: 5px solid black;
     border-radius: 10%;
     margin: 10% 0% 10% 0%;
@@ -50,35 +49,28 @@
 
 @media (max-width: 900px) {
     .about-page {
-        height: 155vw;
-    }
-    .about-header {
-        padding: 7.5% 20% 0% 7.5%;
+        height: 160vw;
+        margin-top: 0%;
     }
     .about-table {
         padding: 0% 5% 0% 5%;
-        height: 100vw;
     }
     .about-col {
         flex-direction: column;
         flex-basis:100%;
     }
     .about-header b {
-        text-align: center;
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .about-col p {
         font-size: 4vw;
-        line-height: 100%;
     }
-    #about-btn {
+    #experience-btn {
         height: 20vw;
-        font-size: 4vw !important;
-        transform: translateX(20%);
+        font-size: 5vw !important;
     }
     #me-image {
         width: 50%;
-        height: auto;
         transform: translateX(45%);
     }
 }

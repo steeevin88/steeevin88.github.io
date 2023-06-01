@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, NavItem, Button } from 'reactstrap';
 import { Link } from 'react-scroll';
+import './Navbar.css';
+
 import logo from './logo.png';
 import CustomDDM from './DropdownMenu/CustomDDM';
-import './Navbar.css';
 import { handleResize } from '../../Utilities/WindowResize';
 
 function ProjectNavbar() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-    useEffect(() => {
-        const cleanup = handleResize((newWidth) => {
-        setWindowWidth(newWidth);
-        });
+  useEffect(() => {
+    const cleanup = handleResize((newWidth) => {
+      setWindowWidth(newWidth);
+    });
 
-        return cleanup;
-    }, []);
+    return cleanup;
+  }, []);
 
-  const logoClick = () => {
+  const toTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
@@ -28,15 +29,13 @@ function ProjectNavbar() {
     <Navbar expand="md" className="navbar">
       <div className="navbar-container">
         <div className="side-container">
-          <img className="logo" src={logo} alt="logo" onClick={logoClick}/>
+          <img className="logo" src={logo} alt="logo" onClick={toTop}/>
         </div>
         {windowWidth <= 900 ? (
-          // Render dropdown menu on mobile view
           <div className="dropdown-container">
             <CustomDDM />
           </div>
         ) : (
-          // Render regular Navbar on larger screens
           <>
             <Nav className="navbar-nav" navbar>
               <NavItem>

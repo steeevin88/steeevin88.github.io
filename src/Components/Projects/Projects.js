@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
 import './Projects.css';
+
 import ProjectHeader from './ProjectComponents/ProjectsHeader';
 import ProjectCard from './ProjectComponents/ProjectCard';
 import { handleResize } from '../../Utilities/WindowResize';
@@ -64,7 +65,7 @@ function Projects() {
             <div className='projects-table'>
                 <div className='projects-row'>
                     {windowWidth > 900 && (
-                    <Button onClick={handlePrevious} disabled={currentProject === 0}>
+                    <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
                         ←
                     </Button>
                     )}
@@ -72,11 +73,11 @@ function Projects() {
                         <ProjectCard photo={photo} title={title} dates={dates} description={description} repo={repo} />
                     </div>
                     {windowWidth < 900 && (
-                    <Button onClick={handlePrevious} disabled={currentProject === 0}>
+                    <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
                         ←
                     </Button>
                     )}
-                    <Button onClick={handleNext} disabled={currentProject === projectsTable.length - 1}>
+                    <Button id='projects-switcher' onClick={handleNext} disabled={currentProject === projectsTable.length - 1}>
                         →
                     </Button>
                 </div> 

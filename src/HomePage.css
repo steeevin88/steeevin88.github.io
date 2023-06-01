@@ -4,37 +4,13 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: beige;
   color: black;
-  margin: 0;
-  padding: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+.content {
+  margin-top: calc(5% + 60px);
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-b {
-  font-size: 3vw;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.content-container {
-  margin-top: calc(5% + 60px); /* Adjust the margin to match the height of the Navbar */
-  padding-top: 0;
-}
-
-img {
-  border: 2px solid black;
-  border-radius: 5%;
+a {
+  text-decoration: none;
+  color: inherit;
 }

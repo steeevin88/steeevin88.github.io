@@ -35,7 +35,7 @@ function Intro() {
         <p>Click the button below to learn about me and this website.</p>
         <Link activeClass="active" to="about" spy={true} smooth={true}
         offset={-70} duration={800} href="">
-          <Button outline id='intro-btn' style={{ width: '70%', border: '5px solid black',
+          <Button outline id='about-btn' style={{ width: '70%', border: '5px solid black',
           borderRadius: 10, fontSize: '2vw', fontFamily:'Arial' }}>
             About Me →
           </Button>

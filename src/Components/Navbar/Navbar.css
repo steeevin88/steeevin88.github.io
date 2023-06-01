@@ -29,6 +29,7 @@
 .navbar-nav .nav-link {
   color: black;
   text-decoration: none;
+  color: inherit;
 }
 
 .navlink:hover {

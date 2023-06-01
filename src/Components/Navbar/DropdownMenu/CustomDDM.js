@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import './CustomDDM.css';
 import { Link } from 'react-scroll';
+import './CustomDDM.css';
+
 import dropdown from './dropdown.png';
 
 function CustomDDM() {

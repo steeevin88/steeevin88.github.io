@@ -1,7 +1,7 @@
 import React from 'react';
-import './ProjectsHeader.css';
 import { Button } from 'reactstrap';
 import { Link } from 'react-scroll';
+import './ProjectsHeader.css';
 
 export default function ProjectHeader() {
   return (
@@ -17,7 +17,7 @@ export default function ProjectHeader() {
             </Button>
           </Link>
         </div>
-        <hr />
+        <hr id='projects-hr'/>
       </div>
     </div>
   );

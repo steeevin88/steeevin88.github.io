@@ -11,7 +11,9 @@
 }
 
 .project-image {
-    height: 25vw; /* Set the desired height here */
+    height: 27.5vw;
+    border: 2px solid black;
+    border-radius: 5%;
 }
   
 
@@ -29,6 +31,6 @@
     }
 
     .project-image {
-        height: 100%; /* Set the desired height here */
+        height: 100%; 
     }
 }

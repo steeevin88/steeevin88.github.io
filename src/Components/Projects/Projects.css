@@ -6,66 +6,30 @@
 .projects-table {
     display: flex;
     flex-direction: column;
-    padding: 0% 2.5% 7.5% 2.5%;
     text-align: center;
-}
-
-.projects-header p {
-    font-size: 1.5vw;
 }
 
 .projects-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 22.5vw;
 }
 
-.projects-row button{
-    flex-basis: 5%;
+#projects-switcher{
+    flex-basis: 5%;  /* button width */
     margin: 0% 2.5% 0% 2.5%;
     background-color: #f2dcb3;
-    color: black;
     border-radius: 10px;
+    font-size: 5vw;
 }
 
 .project-card {
-    flex-basis: 50vw;
-}
-
-#contacts-btn {
-    align-self: center;
-    margin: 5vw 0% 0% 0%;
-    transition-property: scale;
-    transition-duration: 0.5s;
-    background-color: #967969;
-    height: 3.5vw;
-    cursor: pointer;
-    color: black;
-}
-
-#contacts-btn:hover {
-    transform: scale(1.1);
+    flex-basis: 60vw; /* card width */
 }
 
 @media (max-width: 900px) {
     .projects-page {
         height: 100vw;
-    }
-    .projects-header {
-        margin: 7.5% 0% 0% 7.5%;
-    }
-    .projects-table {
-        padding: 0%;
-    }
-    .projects-header b {
-        text-align: center;
-        font-size: 5vw;
-    }
-    .projects-row button{
-        margin: 0% 2.5% 1% 2.5%;
-        flex-basis: 25%;
-        height: 25%;
     }
     .projects-row {
         display: flex;
@@ -73,12 +37,12 @@
         justify-content: center;
         height: 27.5vw;
     }
+    #projects-switcher{
+        flex-basis: 25%;
+        height: 35%;
+        font-size: 7vw;
+    }
     .project-card {
         flex-basis: 100vw;
-    }    
-    #contacts-btn {
-        width: 30vw;
-        margin-top: 30vw;
-        height: 10vw;
-        font-size: 4vw !important;    }
+    }
 }
