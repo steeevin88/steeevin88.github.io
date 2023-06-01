@@ -1,6 +1,6 @@
 .projects-page {
     background-color: #f2dcb3;
-    height: 45vw;
+    height: 50vw;
 }
 
 .projects-table {
@@ -46,6 +46,7 @@
         height: 35%;
         font-size: 7vw;
         margin: 0% 2.5% 0% 2.5%;
+        border: solid;
     }
     .project-card {
         flex-basis: 100vw;

@@ -1,3 +1,40 @@
-.experience-table {
+.experience-page {
+    height: 50vw;
+    padding-top: 2.5%;
+  }
+  
+  .experience-table {
+    margin: 0% 2.5% 0% 2.5%;
     display: flex;
-}
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .experience-table::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .experience-table::-webkit-scrollbar-track {
+    background-color: #dddddd;
+  }
+  
+  .experience-table::-webkit-scrollbar-thumb {
+    background-color: #967969;
+  }
+
+  .experience-header {
+    margin: 1% 0% 1% 5%;
+    font-size: 2vw;
+  }
+  
+  .experience-container {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 1rem;
+  }
+  
+  .experience-container:hover > .experience-card {
+    transform: scale(1.05);
+  }
+  

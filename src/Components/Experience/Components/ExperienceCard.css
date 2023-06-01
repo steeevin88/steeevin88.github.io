@@ -1,0 +1,35 @@
+.experience-card {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 40vw;
+    margin: 5%;
+  }
+  
+  .experience-image {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .card-content {
+    padding: 1.25rem;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.75rem;
+  }
+  
+  .description {
+    font-size: 0.875rem;
+    color: #333;
+  }
+  
