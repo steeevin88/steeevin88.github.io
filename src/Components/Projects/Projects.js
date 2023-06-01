@@ -21,7 +21,7 @@ function Projects() {
     const projectsTable = [
         {
             photo: 'https://github.com/steeevin88/steeevin88/assets/59713070/6f37ad11-770c-4599-b0a4-9f5197fd1d22',
-            title: 'Personal Portfolio / Webpage',
+            title: 'Personal Portfolio',
             dates: 'May 2023',
             description: 'Website created to showcase experiences and personal projects',
             repo: 'https://github.com/steeevin88/stevens-webpage'

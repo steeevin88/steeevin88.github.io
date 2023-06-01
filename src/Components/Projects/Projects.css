@@ -4,7 +4,6 @@
 }
 
 .projects-table {
-    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -16,11 +15,17 @@
 }
 
 #projects-switcher{
-    flex-basis: 5%;  /* button width */
-    margin: 0% 2.5% 0% 2.5%;
+    flex-basis: 10%;  /* button width */
     background-color: #f2dcb3;
     border-radius: 10px;
     font-size: 5vw;
+    text-align: center;
+    height: 27.5vw;
+    border: none;
+}
+
+#projects-switcher:hover{
+    transform: scale(1.1);
 }
 
 .project-card {
@@ -29,11 +34,10 @@
 
 @media (max-width: 900px) {
     .projects-page {
-        height: 100vw;
+        height: 105vw;
     }
     .projects-row {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         height: 27.5vw;
     }
@@ -41,6 +45,7 @@
         flex-basis: 25%;
         height: 35%;
         font-size: 7vw;
+        margin: 0% 2.5% 0% 2.5%;
     }
     .project-card {
         flex-basis: 100vw;
