@@ -1,6 +1,6 @@
 .projects-page {
     background-color: #f2dcb3;
-    height: 50vw;
+    height: 45vw;
 }
 
 .projects-table {
@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 27.5vw;
+    height: 22.5vw;
 }
 
 .projects-row button{
@@ -30,7 +30,7 @@
 }
 
 .project-card {
-    flex-basis: 50%;
+    flex-basis: 50vw;
 }
 
 #contacts-btn {
@@ -50,22 +50,22 @@
 
 @media (max-width: 900px) {
     .projects-page {
-        height: 155vw;
+        height: 100vw;
     }
     .projects-header {
         margin: 7.5% 0% 0% 7.5%;
     }
     .projects-table {
         padding: 0%;
-        height: 100vw;
     }
     .projects-header b {
         text-align: center;
         font-size: 5vw;
     }
     .projects-row button{
-        width: 20%;
-        margin: 0% 2.5% 0% 2.5%;
+        margin: 0% 2.5% 1% 2.5%;
+        flex-basis: 25%;
+        height: 25%;
     }
     .projects-row {
         display: flex;
@@ -73,11 +73,11 @@
         justify-content: center;
         height: 27.5vw;
     }
-    .projects-card {
-        flex-basis: 60vw;
+    .project-card {
+        flex-basis: 100vw;
     }    
     #contacts-btn {
-        width: 30vw !important;
+        width: 30vw;
         margin-top: 30vw;
         height: 10vw;
         font-size: 4vw !important;    }

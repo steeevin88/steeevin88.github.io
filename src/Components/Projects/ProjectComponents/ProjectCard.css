@@ -1,0 +1,34 @@
+.card-title {
+    font-size: 2vw;
+}
+
+.card-subtitle {
+    font-size: 1vw;
+}   
+
+.card-text {
+    font-size: 1vw;
+}
+
+.project-image {
+    height: 25vw; /* Set the desired height here */
+}
+  
+
+@media (max-width: 900px) {
+    .card-title {
+        font-size: 4vw !important;
+    }
+    
+    .card-subtitle {
+        font-size: 3vw !important;
+    }   
+    
+    .card-text {
+        font-size: 3.5vw !important;
+    }
+
+    .project-image {
+        height: 100%; /* Set the desired height here */
+    }
+}

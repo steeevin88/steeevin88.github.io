@@ -4,27 +4,18 @@ import { Link } from 'react-scroll';
 import logo from './logo.png';
 import CustomDDM from './DropdownMenu/CustomDDM';
 import './Navbar.css';
+import { handleResize } from '../../Utilities/WindowResize';
 
 function ProjectNavbar() {
-  const [isMobile, setIsMobile] = useState(false); // track "mobile view"
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    // Function to handle resizing of the window
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 900); // Set isMobile state based on screen width
-    };
+    useEffect(() => {
+        const cleanup = handleResize((newWidth) => {
+        setWindowWidth(newWidth);
+        });
 
-    // Attach event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Call handleResize initially to set the initial isMobile state
-    handleResize();
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+        return cleanup;
+    }, []);
 
   const logoClick = () => {
     window.scrollTo({
@@ -39,7 +30,7 @@ function ProjectNavbar() {
         <div className="side-container">
           <img className="logo" src={logo} alt="logo" onClick={logoClick}/>
         </div>
-        {isMobile ? (
+        {windowWidth <= 900 ? (
           // Render dropdown menu on mobile view
           <div className="dropdown-container">
             <CustomDDM />
@@ -49,71 +40,33 @@ function ProjectNavbar() {
           <>
             <Nav className="navbar-nav" navbar>
               <NavItem>
-                <Link
-                  className="navlink"
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={800}
-                  href=""
-                >
+                <Link className="navlink" activeClass="active" to="about" 
+                spy={true} smooth={true} offset={-70} duration={800} href="">
                   About
                 </Link>
               </NavItem>
               <NavItem>
-                <Link
-                  className="navlink"
-                  activeClass="active"
-                  to="experience"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={800}
-                  href=""
-                >
+                <Link className="navlink" activeClass="active" to="experience" 
+                spy={true} smooth={true} offset={-70} duration={800} href="">
                   Experience
                 </Link>
               </NavItem>
               <NavItem>
-                <Link
-                  className="navlink"
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={800}
-                  href=""
-                >
+                <Link className="navlink" activeClass="active" to="projects" 
+                spy={true} smooth={true} offset={-70} duration={800} href="">
                   Projects
                 </Link>
               </NavItem>
               <NavItem>
-                <Link
-                  className="navlink"
-                  activeClass="active"
-                  to="socials"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={800}
-                  href=""
-                >
+                <Link className="navlink" activeClass="active" to="socials" 
+                spy={true} smooth={true} offset={-70} duration={800} href="">
                   Socials
                 </Link>
               </NavItem>
             </Nav>
             <div className="side-container">
               <Button outline id="btn" href="https://drive.google.com/file/d/1fS1tur2jLJAuUhM1rJDuV8TeyMBq-hlY/view?usp=sharing"
-                target="_blank" style={{
-                  width: '100%',
-                  border: '10px solid #F5F5DC',
-                  borderRadius: 10,
-                  fontSize: '18px',
-                }}
-              >
+              rel="noopener noreferrer" style={{ width: '100%', border: '10px solid #F5F5DC', borderRadius: 10, fontSize: '18px' }}>
                 Resume
               </Button>
             </div>
