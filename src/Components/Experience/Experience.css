@@ -24,8 +24,24 @@
   }
 
   .experience-header {
-    margin: 1% 0% 1% 5%;
+    margin: 1% 5% 1% 5%;
     font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #projects-btn {
+    margin-top: 0;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    background-color: #f2dcb3;
+    height: 3.5vw;
+    cursor: pointer;
+    color: black;
+  }
+
+  #projects-btn:hover {
+    transform: scale(1.1);
   }
   
   .experience-container {
@@ -35,6 +51,19 @@
   }
   
   .experience-container:hover > .experience-card {
-    transform: scale(1.05);
+    transform: scale(1.01);
   }
-  
+
+  @media (max-width: 900px) {
+    .experience-page {
+      height: 100vw;
+    }
+    .experience-header {
+      font-size: 4vw;
+    }
+    #projects-btn {
+        height: 8vw;
+        font-size: 3vw !important;
+        width: 30vw !important;
+    }
+  }
