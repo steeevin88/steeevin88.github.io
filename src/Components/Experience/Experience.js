@@ -16,7 +16,7 @@ function Experience() {
         </>
     },
     {
-      photo:'https://github.com/SCE-Development/Clark/assets/59713070/8c2d9488-845c-49b5-9c60-b6ef43fce2cb',
+      photo:'https://github.com/steeevin88/steeevin88/assets/59713070/c99b42e3-9718-43a0-8915-9c840dfe36f4',
       title:'SCE Dev Team Officer',
       dates:'March 2023 - present',
       description:

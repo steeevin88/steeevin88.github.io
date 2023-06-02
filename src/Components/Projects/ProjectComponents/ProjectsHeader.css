@@ -12,7 +12,7 @@
 #contacts-btn {
     margin-top: 0;
     transition-property: scale;
-    transition-duration: 0.5s;
+    transition: 1s;
     background-color: #967969;
     height: 3.5vw;
     cursor: pointer;

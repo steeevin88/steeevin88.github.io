@@ -27,7 +27,7 @@
 
 #experience-btn {
     transition-property: scale;
-    transition-duration: 0.5s;
+    transition: 1s;
     background-color: #f2dcb3;
     height: 5vw;
     margin: 5% 0% 0% 0%;

@@ -33,7 +33,7 @@
   #projects-btn {
     margin-top: 0;
     transition-property: scale;
-    transition-duration: 0.5s;
+    transition: 1s;
     background-color: #f2dcb3;
     height: 3.5vw;
     cursor: pointer;
@@ -51,7 +51,7 @@
   }
   
   .experience-container:hover > .experience-card {
-    transform: scale(1.01);
+    transform: scale(1.05);
   }
 
   @media (max-width: 900px) {

@@ -1,5 +1,5 @@
 .experience-card {
-  background-color: white;
+  background-color: #f2dcb3;
   border: 1px solid #dbdbdb;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -7,7 +7,7 @@
   height: 31vw;
   margin: 5%;
   cursor: pointer;
-  transition: transform 0.8s;
+  transition: 1s;
 }
 
 .front {
