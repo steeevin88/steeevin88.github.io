@@ -23,6 +23,7 @@
     text-align: center;
     height: 27.5vw;
     border: none;
+    cursor: pointer;
 }
 
 #projects-switcher:hover{

@@ -48,10 +48,10 @@ function Experience() {
   return (
     <div className="experience-page" id="experience">
       <div className="experience-header">
-          <b>MY EXPERIENCES</b>
+          <p>EXPERIENCE - <b>Opportunities I've been apart of.</b></p>
           <Link activeClass="active" to="projects" spy={true} smooth={true}
           offset={-70} duration={800} href="">
-            <Button outline id='projects-btn' style={{ width: '15vw', border: '3px solid black',
+            <Button outline id='projects-btn' style={{ width: '15vw', border: 'none',
             borderRadius: 10, fontSize: '1.5vw', fontFamily:'Arial' }}>
               My Projects →
             </Button>

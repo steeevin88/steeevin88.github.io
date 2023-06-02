@@ -21,25 +21,25 @@ function CustomDDM() {
         <DropdownMenu>
           <DropdownItem>
             <Link className="navlink" activeClass="active" to="about" 
-            spy={true} smooth={true} offset={-70} duration={800} href="">
+            spy={true} smooth={true} offset={-60} duration={800} href="">
               About 🙋‍♂️
             </Link>
           </DropdownItem>
           <DropdownItem>
             <Link className="navlink" activeClass="active" to="experience" 
-            spy={true} smooth={true} offset={-70} duration={800} href="">
+            spy={true} smooth={true} offset={-60} duration={800} href="">
               Experience
             </Link>
           </DropdownItem>
           <DropdownItem>
             <Link className="navlink" activeClass="active" to="projects" 
-            spy={true} smooth={true} offset={-70} duration={800} href="">
+            spy={true} smooth={true} offset={-60} duration={800} href="">
               Projects 🛠️
             </Link>
           </DropdownItem>
           <DropdownItem>
             <Link className="navlink" activeClass="active" to="contacts" 
-            spy={true} smooth={true} offset={-70} duration={800} href="">
+            spy={true} smooth={true} offset={-60} duration={800} href="">
               Contact 📞
             </Link>
           </DropdownItem>

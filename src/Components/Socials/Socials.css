@@ -1,29 +1,34 @@
-.about-page {
+.socials-page {
     background-color: #967969;
     height: 50vw;
 }
 
-.about-header {
+.socials-header {
+    padding-top: 10%;
     font-size: 3vw;
 }
 
-.about-table {
+.socials-table {
     display: flex;
     flex-wrap: wrap;
-    padding: 2.5% 20% 7.5% 20%;
+    padding: 2.5% 10% 7.5% 10%;
 }
 
-.about-col {
+.socials-col {
     margin: 0% 2.5% 0% 2.5%;
     flex-grow: 2;
     flex-basis: 20%;
 }
 
-.about-col p {
+.socials-col p {
     font-size: 1.5vw;
 }
 
-#experience-btn {
+.socials-icons-container {
+    margin-top: 15%;
+}
+
+#intro-btn {
     transition-property: scale;
     transition: 1s;
     background-color: #f2dcb3;
@@ -34,41 +39,33 @@
     cursor: pointer;
 }
 
-#experience-btn:hover {
+#intro-btn:hover {
     transform: translateX(20%) scale(1.1);
 }
 
-#me-image {
-    max-width: 100%;
-    border: 5px solid black;
-    border-radius: 10%;
-    margin: 10% 0% 10% 0%;
-}
-
 @media (max-width: 900px) {
-    .about-page {
-        height: 180vw;
+    .socials-page {
+        height: 170vw;
         margin-top: 0%;
     }
-    .about-table {
+    .socials-table {
         padding: 0% 5% 0% 5%;
     }
-    .about-col {
+    .socials-col {
         flex-direction: column;
         flex-basis:100%;
     }
-    .about-header b {
+    .socials-icons-container {
+        margin-top: 0;
+    }
+    .socials-header b {
         font-size: 6vw;
     }
-    .about-col p {
+    .socials-col p {
         font-size: 4vw;
     }
-    #experience-btn {
+    #intro-btn {
         height: 20vw;
         font-size: 5vw !important;
-    }
-    #me-image {
-        width: 50%;
-        transform: translateX(45%);
     }
 }

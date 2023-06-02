@@ -30,6 +30,10 @@
     justify-content: space-between;
   }
 
+  .experience-header p, .experience-header p b{
+    margin-top: 0;
+  }
+
   #projects-btn {
     margin-top: 0;
     transition-property: scale;

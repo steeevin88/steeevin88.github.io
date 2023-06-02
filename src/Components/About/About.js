@@ -9,6 +9,7 @@ function About() {
             <div className='about-table'>
                 <div className='about-col'>
                     <div className='about-header'>
+                        <p>ABOUT</p>
                         <b>Welcome! </b>
                     </div>
                     <p>Thanks for visiting! My name is Steven Le.
@@ -23,10 +24,8 @@ function About() {
                     documenting my career growth.
                     </p>
                     <Button outline id='experience-btn' style={{ width: '70%', 
-                    border: '5px solid black', borderRadius: 10, fontSize: '2vw',
-                    fontFamily:'Arial' }}>
-                        <Link activeClass="active" to="experience" spy={true}
-                        smooth={true} offset={-70} duration={800} href="">
+                    border: 'none', borderRadius: 10, fontSize: '2vw', fontFamily:'Arial' }}>
+                        <Link activeClass="active" to="experience" spy={true} offset={-70} smooth={true} href="">
                             Experience →
                         </Link>
                     </Button>

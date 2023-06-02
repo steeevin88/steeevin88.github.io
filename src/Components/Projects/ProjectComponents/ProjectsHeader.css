@@ -23,12 +23,6 @@
     transform: scale(1.1);
 }
 
-#projects-hr {
-    border: none;
-    border-top: 0.5vw solid black;
-    border-radius: 5px; 
-}
-
 .upper-header {
     display: flex;
     align-items: center;

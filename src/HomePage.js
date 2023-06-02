@@ -6,6 +6,7 @@ import Intro from './Components/Intro/Intro';
 import About from './Components/About/About';
 import Experience from './Components/Experience/Experience'
 import Projects from './Components/Projects/Projects';
+import Socials from './Components/Socials/Socials'
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
         <About />
         <Experience />
         <Projects />
+        <Socials />
       </div>
     </div>
   );
