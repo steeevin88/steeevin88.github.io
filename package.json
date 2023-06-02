@@ -1,7 +1,7 @@
 {
   "name": "stevens-webpage",
   "version": "0.1.0",
-  "homepage":"https://steeevin88.github.io/steeevin88.github.io",
+  "homepage": "https://steeevin88.github.io/steeevin88.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,7 +11,6 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
-    "react-typist": "^2.0.5",
     "reactstrap": "^9.1.10",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
