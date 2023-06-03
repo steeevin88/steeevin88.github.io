@@ -36,9 +36,10 @@
 
 @media (max-width: 900px) {
     .projects-page {
-        height: 105vw;
+        height: 210vw;
     }
     .projects-row {
+        padding-top: 25vw;
         display: flex;
         justify-content: center;
         height: 27.5vw;

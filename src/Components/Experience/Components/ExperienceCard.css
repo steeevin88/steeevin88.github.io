@@ -53,11 +53,17 @@
 
 
 @media (max-width: 900px) {
+  .experience-htext {
+    width: 50%;
+  }
+  .experience-table {
+    padding-top: 15vw;
+  }
   .experience-card {
-    width: 70vw;
-    height: 70vw;
+    width: 80vw;
+    height: 80vw;
   }
   .experience-image {
-    max-height: 40vw;
+    max-height: 50vw;
   }
 }

@@ -45,18 +45,18 @@
 
 @media (max-width: 900px) {
     .socials-page {
-        height: 170vw;
+        height: 210vw;
         margin-top: 0%;
     }
     .socials-table {
-        padding: 0% 5% 0% 5%;
+        padding: 5% 5% 0% 5%;
     }
     .socials-col {
         flex-direction: column;
         flex-basis:100%;
     }
     .socials-icons-container {
-        margin-top: 0;
+        margin-top: 105;
     }
     .socials-header b {
         font-size: 6vw;

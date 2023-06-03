@@ -60,14 +60,20 @@
 
   @media (max-width: 900px) {
     .experience-page {
-      height: 100vw;
+      height: 200vw;
     }
     .experience-header {
-      font-size: 4vw;
+      font-size: 5vw;
+    }
+    .experience-table {
+      flex-direction: column;
+      height: 30rem;
+      overflow-y: auto;
+      margin-top: 10%;
     }
     #projects-btn {
-        height: 8vw;
-        font-size: 3vw !important;
+        height: 20vw;
+        font-size: 4vw !important;
         width: 30vw !important;
     }
   }

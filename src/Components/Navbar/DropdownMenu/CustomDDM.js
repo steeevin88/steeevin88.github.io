@@ -38,7 +38,7 @@ function CustomDDM() {
             </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link className="navlink" activeClass="active" to="contacts" 
+            <Link className="navlink" activeClass="active" to="socials" 
             spy={true} smooth={true} offset={-60} duration={800} href="">
               Contact 📞
             </Link>

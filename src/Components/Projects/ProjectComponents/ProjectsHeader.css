@@ -30,11 +30,14 @@
 }
 
 @media (max-width: 900px) {
-    .projects-header b {
-        font-size: 4vw;
+    .projects-header {
+        padding-top: 10%;
+    }
+    .projects-header b{
+        font-size: 5vw;
     }
     #contacts-btn {
-        height: 10vw;
-        font-size: 3vw !important;  
+        height: 20vw;
+        font-size: 4vw !important;  
     }
 }

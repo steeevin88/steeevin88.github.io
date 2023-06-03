@@ -42,16 +42,16 @@
     max-width: 100%;
     border: 5px solid black;
     border-radius: 10%;
-    margin: 10% 0% 10% 0%;
+    margin: 5% 0% 10% 0%;
 }
 
 @media (max-width: 900px) {
     .about-page {
-        height: 180vw;
+        height: 210vw;
         margin-top: 0%;
     }
     .about-table {
-        padding: 0% 5% 0% 5%;
+        padding: 5% 5% 0% 5%;
     }
     .about-col {
         flex-direction: column;
@@ -64,11 +64,11 @@
         font-size: 4vw;
     }
     #experience-btn {
-        height: 20vw;
+        height: 15vw;
         font-size: 5vw !important;
     }
     #me-image {
-        width: 50%;
-        transform: translateX(45%);
+        width: 45%;
+        transform: translateX(50%);
     }
 }

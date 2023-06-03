@@ -30,24 +30,30 @@ function Socials() {
                 </div>
                 <div className='socials-col'>
                     <div className='socials-icons-container'>
-                        <Button outline id='intro-btn' style={{ width: '70%', 
-                        border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#0077B5',
-                        fontFamily:'Arial' }}>
-                            <a href="https://www.linkedin.com/in/steven-le-90b28b23b/" 
-                            target="_blank" rel="noopener noreferrer" >Linkedin</a>
-                        </Button>
-                        <Button outline id='intro-btn' style={{ width: '70%', 
-                        border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#6CC644',
-                        fontFamily:'Arial' }}>
-                            <a href="https://github.com/steeevin88" 
-                            target="_blank" rel="noopener noreferrer" >Github</a>
-                        </Button>
-                        <Button outline id='intro-btn' style={{ width: '70%', 
-                        border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#A334FA',
-                        fontFamily:'Arial' }}>
-                            <a href="https://www.facebook.com/steven.le.58555/" 
-                            target="_blank" rel="noopener noreferrer" >Messenger</a>
-                        </Button>
+                        <a href="https://www.linkedin.com/in/steven-le-90b28b23b/" 
+                        target="_blank" rel="noopener noreferrer" >
+                            <Button outline id='intro-btn' style={{ width: '70%', 
+                            border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#0077B5',
+                            fontFamily:'Arial' }}>
+                                Linkedin
+                            </Button>
+                        </a>
+                        <a href="https://github.com/steeevin88" 
+                        target="_blank" rel="noopener noreferrer" >
+                            <Button outline id='intro-btn' style={{ width: '70%', 
+                            border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#6CC644',
+                            fontFamily:'Arial' }}>
+                                Github
+                            </Button>
+                        </a>
+                        <a href="https://www.facebook.com/steven.le.58555/" 
+                        target="_blank" rel="noopener noreferrer" >
+                            <Button outline id='intro-btn' style={{ width: '70%', 
+                            border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '#A334FA',
+                            fontFamily:'Arial' }}>
+                                Messenger
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>
