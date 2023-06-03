@@ -24,11 +24,17 @@
     height: 27.5vw;
     border: none;
     cursor: pointer;
+    color: black;
 }
 
 #projects-switcher:hover{
     transform: scale(1.1);
 }
+
+#projects-switcher:disabled {
+    color: gray;
+    cursor: not-allowed;
+  }
 
 .project-card {
     flex-basis: 60vw; /* card width */
@@ -39,7 +45,7 @@
         height: 210vw;
     }
     .projects-row {
-        padding-top: 25vw;
+        padding-top: 15vw;
         display: flex;
         justify-content: center;
         height: 27.5vw;

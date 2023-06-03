@@ -11,7 +11,7 @@ export default function ProjectHeader() {
           <b>My Projects</b>
           <Link activeClass="active" to="socials" spy={true} smooth={true}
           offset={-60} duration={800} href="">
-            <Button outline id='contacts-btn' style={{ width: '20vw', border: 'none',
+            <Button outline id='contacts-btn' style={{ width: '25vw', border: 'none',
             borderRadius: 10, fontSize: '1.5vw', fontFamily:'Arial' }}>
               Contact Me →
             </Button>
