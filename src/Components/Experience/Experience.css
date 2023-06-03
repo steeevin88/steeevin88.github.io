@@ -24,7 +24,7 @@
   }
 
   .experience-header {
-    margin: 1% 5% 1% 5%;
+    margin: 1% 5% 0% 5%;
     font-size: 2vw;
     display: flex;
     justify-content: space-between;
@@ -34,8 +34,12 @@
     margin-top: 0;
   }
 
+  .experience-subtext {
+    font-size: 1.5vw;
+    margin-top: -2.5%;
+  }
+
   #projects-btn {
-    margin-top: 0;
     transition-property: scale;
     transition: 1s;
     background-color: #f2dcb3;
@@ -65,11 +69,15 @@
     .experience-header {
       font-size: 5vw;
     }
+    .experience-subtext {
+      font-size: 5vw;
+      margin-top: -2.5%;
+    }
     .experience-table {
       flex-direction: column;
       height: 30rem;
       overflow-y: auto;
-      margin-top: 10%;
+      margin-top: 5%;
     }
     #projects-btn {
         height: 20vw;

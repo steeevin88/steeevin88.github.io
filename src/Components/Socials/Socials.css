@@ -25,7 +25,8 @@
 }
 
 .socials-icons-container {
-    margin-top: 15%;
+    margin-top: 25%;
+
 }
 
 #intro-btn {
@@ -42,6 +43,26 @@
 #intro-btn:hover {
     transform: translateX(20%) scale(1.1);
 }
+
+.social-btn {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    animation: fadeScaleEffect 5s infinite;
+}
+
+@keyframes fadeScaleEffect {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0);
+      transform: scale(1.1);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+      transform: scale(1);
+    }
+  }
 
 @media (max-width: 900px) {
     .socials-page {
