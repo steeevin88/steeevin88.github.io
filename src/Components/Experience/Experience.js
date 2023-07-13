@@ -56,7 +56,7 @@ function Experience() {
           offset={-60} duration={800} href="">
             <Button outline id='projects-btn' style={{ width: '15vw', border: 'none',
             borderRadius: 10, fontSize: '1.5vw', fontFamily:'Arial' }}>
-              View My Projects →
+              My Projects →
             </Button>
           </Link>
       </div>

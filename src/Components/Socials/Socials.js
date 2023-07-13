@@ -30,7 +30,7 @@ function Socials() {
                     <div className='socials-icons-container'>
                         <a href="https://www.linkedin.com/in/steven-le-90b28b23b/" 
                         target="_blank" rel="noopener noreferrer" >
-                            <Button outline className="social-btn" id='intro-btn' style={{ width: '100%', 
+                            <Button outline id='intro-btn' style={{ width: '100%', 
                             border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '',
                             fontFamily:'Arial' }}>
                                 Linkedin
@@ -38,7 +38,7 @@ function Socials() {
                         </a>
                         <a href="https://github.com/steeevin88" 
                         target="_blank" rel="noopener noreferrer" >
-                            <Button outline className="social-btn" id='intro-btn' style={{ width: '100%', 
+                            <Button outline id='intro-btn' style={{ width: '100%', 
                             border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '',
                             fontFamily:'Arial' }}>
                                 Github
@@ -46,7 +46,7 @@ function Socials() {
                         </a>
                         <a href="mailto:stevenleusa79@yahoo.com" 
                         target="_blank" rel="noopener noreferrer" >
-                            <Button outline className="social-btn" id='intro-btn' style={{ width: '100%', 
+                            <Button outline id='intro-btn' style={{ width: '100%', 
                             border: 'none', borderRadius: 10, fontSize: '2vw', backgroundColor: '',
                             fontFamily:'Arial' }}>
                                 Email

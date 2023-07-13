@@ -20,6 +20,13 @@ function Projects() {
 
     const projectsTable = [
         {
+            photo: 'https://github.com/steeevin88/stevens-webpage/assets/59713070/5e7f6945-c28d-4dd0-8a91-661a6e349134',
+            title: 'Polyomino Frenzy',
+            dates: 'Created in June 2023',
+            description: 'Rendition of Tetris that allows user-inputted Tetris pieces (polyominoes)',
+            repo: 'https://github.com/steeevin88/polyomino-frenzy'
+          },
+          {
             photo: 'https://github.com/steeevin88/steeevin88/assets/59713070/6f37ad11-770c-4599-b0a4-9f5197fd1d22',
             title: 'Personal Portfolio',
             dates: 'Created in May 2023',

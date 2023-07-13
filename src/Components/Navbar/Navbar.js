@@ -64,7 +64,7 @@ function ProjectNavbar() {
               </NavItem>
             </Nav>
             <div className="side-container">
-              <Button outline id="btn" href="https://drive.google.com/file/d/1fS1tur2jLJAuUhM1rJDuV8TeyMBq-hlY/view?usp=sharing" 
+              <Button outline id="btn" href="https://drive.google.com/drive/folders/1OSHBOTT75md3qCo9_5yzw71_MD8Aku3I?usp=sharing" 
               target="_blank" rel="noopener noreferrer" 
               style={{ width: '100%', border: '10px solid #F5F5DC', borderRadius: 10, fontSize: '18px' }}>
                 Resume

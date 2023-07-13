@@ -17,6 +17,8 @@
     height: 3.5vw;
     cursor: pointer;
     color: black;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    animation: fadeScaleEffect 5s infinite;
 }
 
 #contacts-btn:hover {

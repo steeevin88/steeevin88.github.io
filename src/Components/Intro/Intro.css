@@ -38,7 +38,9 @@
     height: 5vw;
     cursor: pointer;
     margin: 5% 0% 0% 0%;
-    color: black; 
+    color: black;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    animation: fadeScaleEffect 5s infinite;
 }
 
 #about-btn:hover {
