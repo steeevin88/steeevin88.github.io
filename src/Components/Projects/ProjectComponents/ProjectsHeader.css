@@ -1,33 +1,28 @@
 .projects-header {
     background-color: #f2dcb3;
     color: black;
-    padding-top: 2.5%;
-    margin: 0% 5% 1% 5%;
+    padding: 2.5% 5% 0 5%;
 }
 
 .projects-header b {
-    font-size: 2.5vw;
+    font-size: 5vh;
 }
 
 #contacts-btn {
-    margin-top: 0;
-    transition-property: scale;
     transition: 1s;
     background-color: #967969;
-    height: 3.5vw;
+    height: 7vh;
     cursor: pointer;
     color: black;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
-    animation: fadeScaleEffect 5s infinite;
+    animation: scaleEffect 5s infinite;
 }
 
 #contacts-btn:hover {
-    transform: scale(1.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
 }
 
 .upper-header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -36,10 +31,10 @@
         padding-top: 10%;
     }
     .projects-header b{
-        font-size: 7vw;
+        font-size: 6vh;
     }
     #contacts-btn {
-        height: 20vw;
-        font-size: 4vw !important;  
+        height: 15vh;
+        font-size: 2.5vh !important;  
     }
 }

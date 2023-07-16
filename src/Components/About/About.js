@@ -6,36 +6,30 @@ import './About.css';
 function About() {
     return (
         <div className='about-page' id='about'>
-            <div className='about-table'>
-                <div className='about-col'>
-                    <div className='about-header'>
-                        <p>ABOUT</p>
-                        <b>Welcome! </b>
-                    </div>
-                    <p>Thanks for visiting! My name is Steven Le.
-                    <br></br>
-                    <br></br>
-                    I'm currently studying computer science at San Jose State
-                    University, pursuing a bachelor's of science.
-                    <br></br>
-                    <br></br>
-                    I'm working towards building a career as a software engineer;
-                    this website is intended to serve as a digitial portfolio, 
-                    documenting my career growth.
-                    </p>
-                    <Link activeClass="active" to="experience" spy={true} smooth={true}
-                     offset={-60} duration={800} href="">
-                        <Button outline id='experience-btn' style={{ width: '70%', border: 'none',
-                        borderRadius: 10, fontSize: '2vw', fontFamily:'Arial' }}>
+            <div className='about-col'>
+                <div className='about-header'>
+                    <p>ABOUT</p>
+                    <b>Welcome!</b>
+                </div>
+                <p>Thanks for visiting! My name is Steven Le.
+                <br/><br/>
+                I'm currently studying computer science at San Jose State
+                University, pursuing a bachelor's of science.
+                <br/><br/>
+                I'm working towards a career in software engineering;
+                this website is intended to serve as a personal portfolio, 
+                documenting my progess.
+                </p>
+                <div className='center'>
+                    <Link activeClass="active" to="experience" offset={-50} smooth={true}>
+                        <Button id='experience-btn' style={{width: '100%', border: 'none', borderRadius: 10}}>
                             Experience →
                         </Button>
                     </Link>
                 </div>
-                <div className='about-col'>
-                    <img id='me-image' 
-                    src='https://github.com/steeevin88/steeevin88/assets/59713070/e8eb0b1f-0436-46f4-8a33-3f706cf0772b' 
-                    alt='me'></img>
-                </div>
+            </div>
+            <div className='about-col center'>
+                <img id='me-image' src='https://github.com/steeevin88/steeevin88/assets/59713070/e8eb0b1f-0436-46f4-8a33-3f706cf0772b' alt='me'/>
             </div>
         </div>
     );

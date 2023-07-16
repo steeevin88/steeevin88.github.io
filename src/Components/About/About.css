@@ -1,63 +1,53 @@
 .about-page {
     background-color: #967969;
-    height: 50vw;
+    height: 100vh;
+    display: flex;
+    padding: 5% 10vw 0 10vw;
 }
 
 .about-header {
-    font-size: 3vw;
-}
-
-.about-table {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2.5% 20% 7.5% 20%;
+    font-size: 5.5vh;
 }
 
 .about-col {
     margin: 0% 2.5% 0% 2.5%;
-    flex-grow: 2;
-    flex-basis: 20%;
 }
 
 .about-col p {
-    font-size: 1.5vw;
+    font-size: 2.75vh;
 }
 
 #experience-btn {
-    transition-property: scale;
+    font-size: 3vh;
+    max-width: 20vw;
     transition: 1s;
     background-color: #f2dcb3;
     height: 5vw;
-    margin: 5% 0% 0% 0%;
+    margin-top: 5%;
     color: black;
-    transform: translateX(20%);
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    animation: fadeScaleEffect 5s infinite;
+    animation: scaleEffect 5s infinite;
 }
 
 #experience-btn:hover {
-    transform: translateX(20%) scale(1.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
 }
 
 #me-image {
     max-width: 100%;
-    border: 5px solid black;
+    border: 0.5vh solid black;
     border-radius: 10%;
-    margin: 5% 0% 10% 0%;
+    margin-top: 5vh;
 }
 
 @media (max-width: 900px) {
     .about-page {
-        height: 210vw;
-        margin-top: 0%;
-    }
-    .about-table {
-        padding: 5% 5% 0% 5%;
+        height: 110vh;
+        flex-direction: column;
+        padding-top: 20px;
     }
     .about-col {
-        flex-direction: column;
-        flex-basis:100%;
+        flex-basis: 20%;
     }
     .about-header b {
         font-size: 6vw;
@@ -66,11 +56,12 @@
         font-size: 4vw;
     }
     #experience-btn {
-        height: 15vw;
+        max-width: 40vw;
+        height: 10vw;
         font-size: 5vw !important;
     }
     #me-image {
-        width: 45%;
-        transform: translateX(50%);
+        align-self: center;
+        max-width: 70%;
     }
 }

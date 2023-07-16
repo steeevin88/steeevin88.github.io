@@ -1,62 +1,68 @@
 .socials-page {
     background-color: #967969;
-    height: 50vw;
+    height: 100vh;
+    padding-top: 14vh;
 }
 
 .socials-header {
-    padding-top: 10%;
-    font-size: 3vw;
+    font-size: 6vh;
 }
 
 .socials-table {
     display: flex;
-    flex-wrap: wrap;
-    padding: 2.5% 10% 7.5% 10%;
+    padding: 0% 22.5% 0% 22.5%;
 }
 
 .socials-col {
-    margin: 0% 2.5% 0% 2.5%;
     flex-grow: 2;
-    flex-basis: 20%;
+    flex-basis: 0%;
 }
 
 .socials-col p {
-    font-size: 1.5vw;
+    font-size: 3vh;
 }
 
 .socials-icons-container {
-    margin-top: 25%;
+    padding-top: 15vh;
 }
 
 #intro-btn {
+    font-size: 4vh;
     transition-property: scale;
-    transition: 1s;
+    transition: 2s;
     background-color: #f2dcb3;
-    height: 5vw;
-    margin: 5% 0% 0% 0%;
+    height: 10vh;
+    margin-top: 5%;
     color: black;
-    transform: translateX(20%);
     cursor: pointer;
 }
 
+#media-btn {
+    font-size: 4vh;
+    transition: 1s;
+    background-color: #f2dcb3;
+    height: 10vh;
+    margin: 7.5% 0% 0% 20%;
+    color: black;
+    cursor: pointer;
+    animation: fadeEffect 4s infinite;
+}
+
 #intro-btn:hover {
-    transform: translateX(20%) scale(1.1);
+    transform: scale(1.1);
 }
 
 @media (max-width: 900px) {
     .socials-page {
-        height: 210vw;
-        margin-top: 0%;
+        height: 100vh;
+        padding-top: 4vh;
     }
     .socials-table {
         padding: 0% 5% 0% 5%;
-    }
-    .socials-col {
         flex-direction: column;
-        flex-basis: 100%;
     }
     .socials-icons-container {
-        margin-top: 0%;
+        padding-top: 1%;
     }
     .socials-header b {
         font-size: 6vw;
@@ -64,8 +70,12 @@
     .socials-col p {
         font-size: 4vw;
     }
-    #intro-btn {
+    #intro-btn, #media-btn {
         height: 20vw;
         font-size: 5vw !important;
+    }
+    #media-btn {
+        height: 20vw;
+        margin-left: 0;
     }
 }

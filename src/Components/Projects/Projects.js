@@ -37,8 +37,8 @@ function Projects() {
             photo: 'https://github.com/steeevin88/steeevin88/assets/59713070/e22c5ddd-6788-45e3-afc4-d4cc71460dfe',
             title: 'NutriCount',
             dates: 'Created in February 2023',
-            description: 'Web application made as part of Santa Clara University\'s'
-            + ' 10th Hack for Humanity Hackathon (2023)',
+            description: 'Web app made as part of Santa Clara University\'s'
+            + ' Hack for Humanity (2023)',
             repo: 'https://github.com/steeevin88/NutriCount'
           },
           {
@@ -70,25 +70,23 @@ function Projects() {
         <div className='projects-page' id='projects'>
             <ProjectHeader />
             <div className='projects-table'>
-                <div className='projects-row'>
-                    {windowWidth > 900 && (
-                    <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
-                        ←
-                    </Button>
-                    )}
-                    <div className='project-card'>
-                        <ProjectCard photo={photo} title={title} dates={dates} description={description} repo={repo} />
-                    </div>
-                    {windowWidth < 900 && (
-                    <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
-                        ←
-                    </Button>
-                    )}
-                    <Button id='projects-switcher' onClick={handleNext} disabled={currentProject === projectsTable.length - 1}>
-                        →
-                    </Button>
-                </div> 
-            </div>
+                {windowWidth > 900 && (
+                <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
+                    ←
+                </Button>
+                )}
+                <div className='project-card'>
+                    <ProjectCard photo={photo} title={title} dates={dates} description={description} repo={repo} />
+                </div>
+                {windowWidth < 900 && (
+                <Button id='projects-switcher' onClick={handlePrevious} disabled={currentProject === 0}>
+                    ←
+                </Button>
+                )}
+                <Button id='projects-switcher' onClick={handleNext} disabled={currentProject === projectsTable.length - 1}>
+                     →
+                </Button>
+            </div> 
         </div>
     );
 }

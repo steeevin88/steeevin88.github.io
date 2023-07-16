@@ -50,13 +50,11 @@ function Experience() {
       <div className="experience-header">
           <div className="experience-htext">
             <p>EXPERIENCE - <b>Opportunities I've been apart of.</b></p>
-            <div className="experience-subtext"><p>Click on the icons to read more:</p></div>
+            <div className="experience-subtext"><p>Scroll through or click on the icons to see more:</p></div>
           </div>
-          <Link activeClass="active" to="projects" spy={true} smooth={true}
-          offset={-60} duration={800} href="">
-            <Button outline id='projects-btn' style={{ width: '15vw', border: 'none',
-            borderRadius: 10, fontSize: '1.5vw', fontFamily:'Arial' }}>
-              My Projects →
+          <Link activeClass="active" to="projects" offset={-50} smooth={true}>
+            <Button outline id='projects-btn' style={{width: '100%', border: 'none', borderRadius: 10}}>
+              Projects →
             </Button>
           </Link>
       </div>

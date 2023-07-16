@@ -11,8 +11,10 @@ function Intro() {
     const textOptions = [
         'Leetcoding...',
         'Working on projects!',
+        'Practicing new interview techniques!',
         'Learning new technologies!',
-        'Trying to become a software engineer!',
+        'Studying for my CS courses.',
+        'Debugging...',
       ];
 
     const interval = setInterval(() => {
@@ -24,22 +26,19 @@ function Intro() {
   }, []);
 
   return (
-    <div className='intro-table' id='intro'>
-      <div className='intro-col'>
-        <Typist className='intro-header'>Hey! I'm Steven.</Typist>
-        <p>I'm striving everyday to become a software engineer! </p>
-        <p>But as of right now, I am probably:</p>
-        <div className='random-text-container'>
-          <p>{randomText}</p>
-        </div>
-        <p>Click the button below to learn about me and this website.</p>
-        <Link activeClass="active" to="about" spy={true} offset={-50} smooth={true} href="">
-          <Button outline id='about-btn' style={{ width: '70%', 
-          border: 'none', borderRadius: 10, fontSize: '2vw', fontFamily:'Arial' }}>
-              About Me →
-          </Button>
-        </Link>
+    <div className='intro-page' id='intro'>
+      <Typist className='intro-header'>Hey! I'm Steven.</Typist>
+      <p>I'm working everday to become software engineer!</p>
+      <p>But as of right now, I am probably...</p>
+      <div className='random-text-container'>
+        <p>{randomText}</p>
       </div>
+      <p>Click the button below to learn more about me.</p>
+      <Link activeClass="active" to="about" offset={-50} smooth={true}>
+        <Button id='about-btn' style={{width: '100%', border: 'none', borderRadius: 10}}>
+          About Me →
+        </Button>
+      </Link>
     </div>
   );
 }

@@ -13,17 +13,30 @@ code {
     monospace;
 }
 
-@keyframes fadeScaleEffect {
+.center {
+  text-align: center;
+}
+
+@keyframes scaleEffect {
   0% {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     transform: scale(1);
   }
   50% {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0);
     transform: scale(1.1);
   }
   100% {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     transform: scale(1);
+  }
+}
+
+@keyframes fadeEffect {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
+  }
+  50% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
   }
 }

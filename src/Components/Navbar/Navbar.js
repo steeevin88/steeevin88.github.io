@@ -40,25 +40,25 @@ function ProjectNavbar() {
             <Nav className="navbar-nav" navbar>
               <NavItem>
                 <Link className="navlink" activeClass="active" to="about" 
-                spy={true} smooth={true} offset={-70} href="">
+                spy={true} smooth={true} offset={-50}>
                   About
                 </Link>
               </NavItem>
               <NavItem>
                 <Link className="navlink" activeClass="active" to="experience" 
-                spy={true} smooth={true} offset={-70} href="">
+                spy={true} smooth={true} offset={-50}>
                   Experience
                 </Link>
               </NavItem>
               <NavItem>
                 <Link className="navlink" activeClass="active" to="projects" 
-                spy={true} smooth={true} offset={-70} href="">
+                spy={true} smooth={true} offset={-50}>
                   Projects
                 </Link>
               </NavItem>
               <NavItem>
                 <Link className="navlink" activeClass="active" to="socials" 
-                spy={true} smooth={true} offset={-70} href="">
+                spy={true} smooth={true} offset={-50}>
                   Socials
                 </Link>
               </NavItem>

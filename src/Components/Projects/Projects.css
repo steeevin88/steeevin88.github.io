@@ -1,33 +1,29 @@
 .projects-page {
     background-color: #f2dcb3;
-    height: 50vw;
+    height: 100vh;
+    padding-top: 3.5vh;
 }
 
 .projects-table {
-    flex-direction: column;
     text-align: center;
-}
-
-.projects-row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    padding-top: 3vh;
 }
 
-#projects-switcher{
-    margin-top: 1%;
-    flex-basis: 10%;  /* button width */
+#projects-switcher{  
+    flex-basis: 10vw;  /* button width */
     background-color: #f2dcb3;
-    border-radius: 10px;
-    font-size: 5vw;
+    font-size: 10vh;
     text-align: center;
-    height: 27.5vw;
+    height: 50vh;
     border: none;
     cursor: pointer;
     color: black;
 }
 
 #projects-switcher:hover{
+    transition: transform 1s;
     transform: scale(1.1);
 }
 
@@ -42,18 +38,17 @@
 
 @media (max-width: 900px) {
     .projects-page {
-        height: 210vw;
+        height: 100vh;
     }
-    .projects-row {
+    .projects-table {
         padding-top: 15vw;
-        display: flex;
-        justify-content: center;
-        height: 27.5vw;
+        flex-wrap: wrap;
+        height: 25vh;
     }
     #projects-switcher{
         flex-basis: 25%;
-        height: 35%;
-        font-size: 7vw;
+        height: 15vh;
+        font-size: 5vh;
         margin: 0% 2.5% 0% 2.5%;
         border: solid;
     }
