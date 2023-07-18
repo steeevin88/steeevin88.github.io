@@ -13,17 +13,18 @@ function About() {
                 </div>
                 <p>Thanks for visiting! My name is Steven Le.
                 <br/><br/>
-                I'm currently studying computer science at San Jose State
-                University, pursuing a bachelor's of science.
+                I'm a second-year student studying computer science at San Jose State
+                University, pursuing a bachelor's of science. Outside of school/ work, you can find 
+                me working out at the gym, or finding new hobbies at home.
                 <br/><br/>
-                I'm working towards a career in software engineering;
-                this website is intended to serve as a personal portfolio, 
-                documenting my progess.
+                I'm working towards a career in software engineering, where I hope to advance projects
+                that makes differences in people's lives. This website is intended to serve as a personal 
+                portfolio, documenting my progess towards that goal.
                 </p>
                 <div className='center'>
                     <Link activeClass="active" to="experience" offset={-50} smooth={true}>
                         <Button id='experience-btn' style={{width: '100%', border: 'none', borderRadius: 10}}>
-                            Experience →
+                            Check Out My Experiences →
                         </Button>
                     </Link>
                 </div>

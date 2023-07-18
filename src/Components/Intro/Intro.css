@@ -11,14 +11,15 @@
     font-size: 4vh;
 }
 
-.intro-header {
+.Typewriter {
     font-size: 12vh;
-    margin: 3vh 0 7.5vh 0;
+    margin: 0 0 7.5vh 0;
 }
 
 .random-text-container {
     display: flex;
     flex-direction: column;
+    line-height: 6vh;
 }  
 
 .random-text-container p{
@@ -49,9 +50,9 @@
     .intro-page p {
         font-size: 2.5vh;
     }
-    .intro-header {
-        text-align: center;
-        font-size: 11vw;
+    .Typewriter {
+        font-size: 5vh;
+        line-height: 6vh;
     }
     .random-text-container p{
         font-size: 7vw;

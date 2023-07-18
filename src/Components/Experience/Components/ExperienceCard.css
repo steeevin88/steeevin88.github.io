@@ -1,26 +1,21 @@
 .experience-card {
-  background-color: #f2dcb3;
-  border: 1px solid #dbdbdb;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 30vw;
-  height: 31vw;
-  margin: 0% 5% 5% 5%;
-  cursor: pointer;
-  transition: 1s;
-}
-
-.front {
   display: flex;
   flex-direction: column;
+  background-color: #f2dcb3;
+  border: 1px solid #dbdbdb;
+  width: 30vw;
+  height: 60vh;
+  margin: 0% 5% 5% 5%;
+  cursor: pointer;
+  overflow: auto;
 }
 
 .experience-image {
   width: 100%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  margin: 5% 0% 5% 0%;
-  max-height: 17vw;
+  margin: 5% 0% 0% 0%;
+  max-height: 35vh;
   object-fit: contain;
 }
 
@@ -29,28 +24,29 @@
 }
 
 .title {
-  font-size: 2vw;
+  font-size: 3.5vh;
   font-weight: bold;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0vh;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 2vh;
   color: #666;
   margin-bottom: 0.75rem;
 }
 
 .description {
   margin: 5%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: black;
   overflow-wrap: break-word;
 }
 
-.flipped {
-  display: none;
+.skills {
+  margin: 5%;
+  margin-top: auto;
+  font-size: 1vw;
 }
-
 
 @media (max-width: 900px) {
   .experience-htext {
@@ -65,5 +61,15 @@
   }
   .experience-image {
     max-height: 50vw;
+  }
+  .title {
+    font-size: 2vh;
+  }
+  .description {
+    font-size: 5vw;
+    overflow-wrap: break-word;
+  }
+  .skills {
+    font-size: 5vw;
   }
 }

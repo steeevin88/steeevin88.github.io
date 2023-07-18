@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-scroll';
-import Typist from 'react-typist';
+import Typewriter from 'typewriter-effect';
 import './Intro.css';
 
 function Intro() {
@@ -9,12 +9,12 @@ function Intro() {
 
   useEffect(() => {
     const textOptions = [
-        'Leetcoding...',
-        'Working on projects!',
-        'Practicing new interview techniques!',
-        'Learning new technologies!',
-        'Studying for my CS courses.',
-        'Debugging...',
+        'Leetcoding',
+        'Working on projects',
+        'Practicing new interview techniques',
+        'Learning new technologies',
+        'Studying for my CS courses',
+        'Debugging',
       ];
 
     const interval = setInterval(() => {
@@ -27,9 +27,9 @@ function Intro() {
 
   return (
     <div className='intro-page' id='intro'>
-      <Typist className='intro-header'>Hey! I'm Steven.</Typist>
-      <p>I'm working everday to become software engineer!</p>
-      <p>But as of right now, I am probably...</p>
+      <Typewriter options={{ strings: ['Hey, I\'m Steven.'], autoStart: true, loop: true, pauseFor: 30000}}/>
+      <p>CS Major @ SJSU + aspiring software engineer</p>
+      <p>As of right now, I am probably...</p>
       <div className='random-text-container'>
         <p>{randomText}</p>
       </div>

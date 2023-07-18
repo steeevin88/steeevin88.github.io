@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Card, CardImg, CardTitle, CardSubtitle, CardText } from 'reactstrap';
+import { CardImg } from 'reactstrap';
+import ReactCardFlip from 'react-card-flip';
 import './ExperienceCard.css';
 
-function ExperienceCard({ photo, title, dates, description }) {
+function ExperienceCard({ photo, title, dates, description, skills }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const flip = () => {
@@ -10,18 +11,19 @@ function ExperienceCard({ photo, title, dates, description }) {
   };
 
   return (
-    <Card className="experience-card" onClick={flip}>
-      <div className={`card-face front ${isFlipped ? 'flipped' : ''}`}>
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+      <div className="experience-card" onClick={flip}>
         <CardImg className="experience-image" top src={photo} alt="Experience Photo" />
         <div className="card-content">
-          <CardTitle className="title">{title}</CardTitle>
-          <CardSubtitle className="subtitle">{dates}</CardSubtitle>
+          <p className="title">{title}</p>
+          <p className="subtitle">{dates}</p>
         </div>
       </div>
-      <div className={`card-face back ${isFlipped ? '' : 'flipped'}`}>
-        <CardText className="description">{description}</CardText>
+      <div className="experience-card" onClick={flip}>
+        <p className="description">{description}</p>
+        <p className="skills">{skills}</p>
       </div>
-    </Card>
+    </ReactCardFlip>
   );
 }
 
