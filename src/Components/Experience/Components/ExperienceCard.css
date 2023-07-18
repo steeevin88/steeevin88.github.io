@@ -1,5 +1,5 @@
-.react-card-front, .react-card-back {
-  transform-style: initial;
+.flipped {
+  display: none;
 }
 
 .experience-card {
