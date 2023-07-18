@@ -24,7 +24,7 @@ function About() {
                 <div className='center'>
                     <Link activeClass="active" to="experience" offset={-50} smooth={true}>
                         <Button id='experience-btn' style={{width: '100%', border: 'none', borderRadius: 10}}>
-                            Check Out My Experiences →
+                            Experiences →
                         </Button>
                     </Link>
                 </div>

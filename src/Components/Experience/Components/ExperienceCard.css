@@ -1,3 +1,7 @@
+.react-card-front, .react-card-back {
+  transform-style: initial;
+}
+
 .experience-card {
   display: flex;
   flex-direction: column;
